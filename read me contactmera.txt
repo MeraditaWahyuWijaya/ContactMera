@@ -1,0 +1,16 @@
+Read Me 
+Pertama Kita membuat folder di xampp bagian htdocs
+selanjutnya kita membuka vscode untuk menulis coddingnya
+di vscode kita membuat 2 file index.php dan proses.php 
+setelah itu kita membuat folder koneksi dan css di htdocs 
+file koneksi untuk menghubungkan antara file php dan juga database 
+file css adalah file untuk mendesain form agar terlihat menarik 
+setelah itu kita buka phpmyadmin
+disitu kita membuat database untuk form yg dibuat
+selanjutnya kita save lalu buka local host dengan nama yang sesuai dengan file utama (index.php)
+disitu nantinya akan muncul form yg sudah dibuat 
+
+Pada form nantinya akan muncul beberapa table yang harus diisi
+beberapa diantaranya yaitu Nama,NIM,Kelas,Email,Pilihan Gender dan juga box saran.
+Setelah semuanya terisi,data bisa di submit
+Nantinya data tersebut akan masuk kedalam database yang telah dibuat.

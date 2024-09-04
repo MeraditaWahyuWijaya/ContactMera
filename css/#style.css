@@ -1,0 +1,110 @@
+/* Gaya umum untuk body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #edf2f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container untuk form */
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: scale(1.02);
+}
+
+/* Gaya untuk judul form */
+h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Gaya untuk label */
+form label {
+    display: block;
+    font-weight: 500;
+    color: #666666;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* Gaya untuk input dan textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f7fafc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #3182ce;
+    box-shadow: 0 0 8px rgba(49, 130, 206, 0.2);
+    outline: none;
+}
+
+/* Gaya untuk radio button */
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form input[type="radio"] + label {
+    margin-right: 20px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* Gaya untuk tombol submit */
+form input[type="submit"] {
+    background-color: #3182ce;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2b6cb0;
+    transform: translateY(-2px);
+}
+
+/* Gaya untuk placeholder */
+form input::placeholder,
+form textarea::placeholder {
+    color: #a0aec0;
+}
+
+/* Gaya untuk textarea */
+form textarea {
+    resize: vertical;
+    height: 120px;
+}
